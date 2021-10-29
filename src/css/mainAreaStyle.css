@@ -1,0 +1,39 @@
+.mainArea {
+  background-color: darkslategrey;
+  width: 100vw;
+  height: 95vh;
+  display: flex;
+}
+.mainArea .infoDiv {
+  display: inline-block;
+  width: 50vw;
+  height: 95vh;
+  text-align: center;
+  vertical-align: middle;
+}
+.mainArea .infoDiv .textDiv {
+  display: inline-block;
+  width: 20vw;
+  height: 20vh;
+  margin: 25vh 0;
+}
+.mainArea .regFormDiv {
+  display: flex;
+  width: 50vw;
+  height: 95vh;
+}
+.mainArea .regFormDiv .regForm {
+  background-color: lightgoldenrodyellow;
+  width: 35vw;
+  height: 35vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+.mainArea .regFormDiv .regForm__input {
+  width: 30vw;
+  height: 20px;
+  margin: auto;
+}
+
+/*# sourceMappingURL=mainAreaStyle.css.map */

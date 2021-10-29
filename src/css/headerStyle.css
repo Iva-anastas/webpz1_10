@@ -1,0 +1,27 @@
+header {
+  height: 5vh;
+  line-height: 5vh;
+  width: 100vw;
+  background-color: black;
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+}
+header .navigation {
+  display: table-cell;
+  vertical-align: middle;
+}
+header .navigation__item {
+  margin: 0 15px 0 15px;
+  color: white;
+}
+header .searchAndAuth .sign_inSpan {
+  margin: 0 15px 0 15px;
+  color: white;
+}
+header .searchAndAuth .sign_upInput {
+  background: black;
+  color: white;
+}
+
+/*# sourceMappingURL=headerStyle.css.map */

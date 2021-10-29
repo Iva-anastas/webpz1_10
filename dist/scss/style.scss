@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+header {
+  height: 5vh;
+  line-height: 5vh;
+  width: 100vw;
+  background-color: black;
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+
+  .navigation {
+    display: table-cell;
+    vertical-align: middle;
+
+    &__item {
+      margin: 0 15px 0 15px;
+      color: white;
+    }
+  }
+
+  .searchAndAuth {
+    .sign_inSpan {
+      margin: 0 15px 0 15px;
+      color: white;
+    }
+
+    .sign_upInput {
+      background: black;
+      color: white;
+    }
+  }
+}
+.mainArea {
+  background-color: darkslategrey;
+  width: 100vw;
+  height: 95vh;
+  display: flex;
+
+  .infoDiv {
+    display: inline-block;
+    width: 50vw;
+    height: 95vh;
+    text-align: center;
+    vertical-align: middle;
+
+    .textDiv {
+      display: inline-block;
+      width: 20vw;
+      height: 20vh;
+      margin: 25vh 0;
+    }
+  }
+
+  .regFormDiv {
+    display: flex;
+    width: 50vw;
+    height: 95vh;
+
+    .regForm {
+      background-color: lightgoldenrodyellow;
+      width: 35vw;
+      height: 35vh;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+
+      &__input {
+        width: 30vw;
+        height: 20px;
+        margin: auto;
+      }
+    }
+  }
+}
